@@ -1,0 +1,29 @@
+{
+  "name": "minecraft-script",
+  "version": "1.0.0",
+  "description": "Minecraft Level.dat API",
+  "type": "module",
+  "scripts": {
+    "build": "bun src/index.ts",
+    "bun:run": "bun src/test.ts",
+    "bun:demo": "bun src/index.ts",
+    "watch": "tsc --watch --project ./tsconfig.json",
+    "setup": "node setup.js",
+    "exe": "bun build --compile --target=bun-windows-x64 src/index.ts --outfile LevelDatAPI"
+  },
+  "author": "こう君",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/express": "^5.0.3",
+  "@types/node": "^20.0.0",
+    "@types/inquirer": "^9.0.7",
+    "inquirer": "^9.2.0",
+    "typescript": "^5.0.0"
+  },
+  "dependencies": {
+    "chalk": "^5.3.0",
+  "express": "^5.1.0",
+  "jimp": "^1.6.0",
+  "prismarine-nbt": "^2.0.0"
+  }
+}
