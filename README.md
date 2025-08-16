@@ -3,7 +3,6 @@
 軽量な Minecraft Bedrock 版の `level.dat` を読み書きする TypeScript ユーティリティです。
 NBT を解析して簡易オブジェクトを提供し、必要に応じて安全にファイルへ書き戻せます。
 
-
 ## 概要
 
 - `LevelDatManager` クラスで `level.dat` を読み込み、get/has/keys/node（Proxy）などの API を通してデータを扱えます。
